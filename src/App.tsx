@@ -1,9 +1,37 @@
 function App() {
   return (
     <>
-      <h1 className="p-10 text-4xl font-bold text-teal-700">
-        Hello, I'm Juned
-      </h1>
+      <div className="min-h-screen bg-stone-50 font-sans text-neutral-900 dark:bg-neutral-950 dark:text-neutral-100">
+        <main className="mx-auto max-w-5xl px-6">
+          <section id="top" className="py-24">
+            Hero
+          </section>
+          <section
+            id="about"
+            className="border-t border-stone-200 py-18 dark:border-neutral-800"
+          >
+            About
+          </section>
+          <section
+            id="skills"
+            className="border-t border-stone-200 py-18 dark:border-neutral-800"
+          >
+            Skills
+          </section>
+          <section
+            id="projects"
+            className="border-t border-stone-200 py-18 dark:border-neutral-800"
+          >
+            Projects
+          </section>
+          <section
+            id="contact"
+            className="border-t border-stone-200 py-18 dark:border-neutral-800"
+          >
+            Contact
+          </section>
+        </main>
+      </div>
     </>
   )
 }
