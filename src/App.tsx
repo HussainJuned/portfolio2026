@@ -1,7 +1,10 @@
+import { Navbar } from './components/Navbar'
+
 function App() {
   return (
     <>
       <div className="min-h-screen bg-stone-50 font-sans text-neutral-900 dark:bg-neutral-950 dark:text-neutral-100">
+        <Navbar />
         <main className="mx-auto max-w-5xl px-6">
           <section id="top" className="py-24">
             Hero
