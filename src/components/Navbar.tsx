@@ -12,7 +12,7 @@ const navLinks = [
 export function Navbar() {
   return (
     <header className="sticky top-0 z-10 border-b border-border bg-background/90 backdrop-blur">
-      <nav className="mx-auto flex w-5xl flex-wrap items-center justify-between gap-3 px-6 py-3">
+      <nav className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-3 px-6 py-3">
         <a href="#top" className="font-display text-xl font-bold">
           Juned<span className="text-accent">.</span>
         </a>

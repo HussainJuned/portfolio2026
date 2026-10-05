@@ -14,6 +14,20 @@ export type Project = {
   linkLabel?: string
 }
 
+/** Personal details reused across the Hero, Contact and Footer sections. */
+export const profile = {
+  name: 'Amdad Hussain Juned',
+  role: 'Junior Software Engineer',
+  location: 'Lisbon area',
+  intro:
+    'I build full-stack web apps: React and TypeScript interfaces backed by REST APIs and SQL databases. I hold an M.Sc. in Computer and Systems Science from Stockholm University. Based near Lisbon and open to full-time developer roles.',
+  email: 'hussainjuned99@gmail.com',
+  githubUrl: 'https://github.com/HussainJuned',
+  linkedinUrl: 'https://linkedin.com/in/hussain-juned',
+  // Served from /public with a fixed name so the download link never changes.
+  cvUrl: '/Amdad_Hussain_Juned_CV.pdf',
+}
+
 export const skills: SkillGroup[] = [
   { title: 'Frontend', items: ['React', 'TypeScript', 'JavaScript', 'HTML', 'CSS', 'Tailwind'] },
   { title: 'Backend', items: ['PHP', 'Laravel', 'REST APIs', 'Node.js'] },
@@ -32,12 +46,5 @@ export const projects: Project[] = [
     // TODO: replace with the News Platform repo URL once it's public
     link: 'https://github.com/HussainJuned',
     linkLabel: 'GitHub repo',
-  },
-  {
-    title: 'M.Sc. Thesis: React vs Vue vs Svelte',
-    description:
-      'Designed controlled experiments to benchmark rendering performance of three frontend frameworks under real-time, high-volume data, then analysed and defended the results at Stockholm University.',
-    tags: ['React', 'Vue', 'Svelte', 'Performance testing'],
-    status: 'research',
-  },
+  }
 ]
