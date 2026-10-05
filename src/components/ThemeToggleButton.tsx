@@ -1,4 +1,4 @@
-import { Moon, Sun } from 'lucide-react'
+import { FiMoon, FiSun } from 'react-icons/fi'
 import { useTheme } from '../hooks/useTheme'
 
 /** Icon button that switches the site between light and dark mode. */
@@ -14,7 +14,7 @@ export function ThemeToggleButton() {
       title={label}
       className="inline-flex size-11 justify-center items-center cursor-pointer rounded-lg border border-border bg-surface text-foreground transition-colors hover:bg-background"
     >
-      {isDark ? <Sun size={18} /> : <Moon size={18} />}
+      {isDark ? <FiSun size={18} aria-hidden="true" /> : <FiMoon size={18} aria-hidden="true" />}
     </button>
   )
 }
