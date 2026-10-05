@@ -2,7 +2,36 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-@theme {
+/* Raw colour values for each theme. Change colours here only. */
+:root {
+  --background: #fafaf7;
+  --surface: #ffffff;
+  --foreground: #15171c;
+  --muted: #4b5060;
+  --border: #e4e4df;
+  --accent: #0f6e66;
+  --accent-hover: #0a4f49;
+}
+
+.dark {
+  --background: #0f1115;
+  --surface: #171a20;
+  --foreground: #ecedee;
+  --muted: #b3b8c2;
+  --border: #262a31;
+  --accent: #5ec4b6;
+  --accent-hover: #86d6cb;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+
   --font-sans: 'Manrope', system-ui, sans-serif;
   --font-display: 'Space Grotesk', system-ui, sans-serif;
 }
