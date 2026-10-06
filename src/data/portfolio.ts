@@ -26,6 +26,12 @@ export const profile = {
   linkedinUrl: 'https://linkedin.com/in/hussain-juned',
   // Served from /public with a fixed name so the download link never changes.
   cvUrl: '/Amdad_Hussain_Juned_CV.pdf',
+
+  about: [
+    "I'm a developer based in Setúbal, working part-time as a remote Full Stack Developer at Advance Solution since June 2025, where I develop, test and fix features used in production.",
+    'I recently completed an M.Sc. in Computer and Systems Science at Stockholm University. My thesis benchmarked the performance of React, Vue and Svelte under high data load.',
+    "I'm looking for a full-time junior backend or frontend or full stack role, and I'm open to relocating.",
+  ],
 }
 
 export const skills: SkillGroup[] = [
