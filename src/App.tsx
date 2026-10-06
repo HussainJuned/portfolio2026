@@ -1,3 +1,4 @@
+import { About } from './components/About'
 import { Hero } from './components/Hero'
 import { Navbar } from './components/Navbar'
 
@@ -8,9 +9,7 @@ function App() {
         <Navbar />
         <main className="mx-auto max-w-5xl px-6">
           <Hero />
-          <section id="about" className="border-border border-t py-18">
-            About
-          </section>
+          <About />
           <section id="skills" className="border-border border-t py-18">
             Skills
           </section>
