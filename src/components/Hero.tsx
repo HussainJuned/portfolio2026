@@ -1,4 +1,3 @@
-import { FiDownload } from 'react-icons/fi'
 import { profile } from '../data/portfolio'
 import Photo from '../assests/photo.jpg'
 import { FaGithub } from 'react-icons/fa'
@@ -19,14 +18,6 @@ export function Hero() {
         </h1>
         <p className="text-muted max-w-xl text-lg">{profile.intro}</p>
         <div className="flex flex-wrap gap-3 pt-2 md:gap-5">
-          <a
-            href={profile.cvUrl}
-            target="_blank"
-            // text-background keeps the label readable on the accent in both themes.
-            className="bg-accent text-background hover:bg-accent-hover inline-flex min-h-12 items-center gap-2 rounded-lg px-3 py-2 font-bold transition-colors sm:px-5"
-          >
-            <FiDownload size={18} aria-hidden="true" /> Download CV
-          </a>
           <a
             href={profile.githubUrl}
             target="_blank"

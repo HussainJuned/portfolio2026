@@ -24,8 +24,6 @@ export const profile = {
   email: 'hussainjuned99@gmail.com',
   githubUrl: 'https://github.com/HussainJuned',
   linkedinUrl: 'https://linkedin.com/in/hussain-juned',
-  // Served from /public with a fixed name so the download link never changes.
-  cvUrl: '/Amdad_Hussain_Juned_CV.pdf',
 
   about: [
     "I'm a developer based in Setúbal, working part-time as a remote Full Stack Developer at Advance Solution since June 2025, where I develop, test and fix features used in production.",
